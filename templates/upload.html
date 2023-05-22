@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <p>Upload a picture to detect fire</p>
+        <form action="/analyze" method="post" enctype="multipart/form-data">
+            <input type="file" name="file"><br>
+            <input type="submit" value="Upload">
+        </form>
+    </body>
+</html>
