@@ -8,7 +8,7 @@
 **Configure virtual environment (PyCharm)**
 - Open in project PyCharm
 - Open `Settings` (Ctrl + Alt + S)
-- Click on `Project: pc_course_project`
+- Click on `Project: neural_networks_course_project`
 - Click on `Python Interpreter`
 - Click on settings icon
 - Click on `Add...`
