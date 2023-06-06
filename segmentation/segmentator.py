@@ -15,7 +15,7 @@ class Segmentator:
 
         self.dir_path = project_folder_path
 
-        self.model = torch.load(f'{self.dir_path}\\segmentation\\unet_test_3',
+        self.model = torch.load(f'{self.dir_path}\\segmentation\\unet_test_3_024',
                                 map_location=torch.device('cpu'))
 
     def segment(self, image):
@@ -32,7 +32,7 @@ class Segmentator:
         print(output.size())
 
         numpy_array = output.permute(1, 2, 0).numpy()
-        numpy_array *= -100
+        numpy_array *= -170
 
         return cv2.imwrite(f'{dir_path_correct}/static/updated_image.png', numpy_array)
 
