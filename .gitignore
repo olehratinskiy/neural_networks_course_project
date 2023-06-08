@@ -1,0 +1,14 @@
+# ide
+.idea/
+
+# python
+venv/
+__pycache__/
+
+# models
+models/unet
+models/fire_classification_model.h5
+
+# images
+static/image.png
+static/updated_image.png
