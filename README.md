@@ -8,21 +8,21 @@ positive - get image with segment highlighted.
 
 <img src="pictures/main.jpg" width="600"/>
 
-###**1. SETTING UP PROJECT**
+### **1. SETTING UP PROJECT**
 - Clone project `git clone <link>`
 - Configure virtual environment (example for PyCharm IDE is below)
 - Install requirements `pip install -r requirements.txt`
 - Download trained models (from [Google Drive](https://drive.google.com/drive/folders/1aSTjtXbVzl8ns48yK4-uO8dzx4ggbZm2?usp=sharing))
 - Put models into `models` dir
 
-###**2. RUN APP**
+### **2. RUN APP**
 - open terminal inside `venv`
 - run start script:
     ```bash
     python app.py
     ```
 
-###**3. ADDITIONAL**
+### **3. ADDITIONAL**
 **Configure virtual environment (PyCharm)**
 - Open in project PyCharm
 - Open `Settings` (Ctrl + Alt + S)
