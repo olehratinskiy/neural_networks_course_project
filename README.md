@@ -1,12 +1,14 @@
 # fire_segmentation
 
+<img src="pictures/main.jpg" width="800"/>
+
 neural networks course project. website to segment fire from image 
 in case it contains it. uses resnet for classification 
 and unet for segmentation. the main idea is to get information
 whether given image pictures fire and in case the answer is
 positive - get image with segment highlighted.
 
-<img src="pictures/main.jpg" width="600"/>
+<img src="pictures/plan.jpg" width="800"/>
 
 ### **1. SETTING UP PROJECT**
 - Clone project `git clone <link>`
