@@ -1,12 +1,28 @@
 # fire_segmentation
 
+neural networks course project. website to segment fire from image 
+in case it contains it. uses resnet for classification 
+and unet for segmentation. the main idea is to get information
+whether given image pictures fire and in case the answer is
+positive - get image with segment highlighted.
+
 <img src="pictures/main.jpg" width="600"/>
 
-**SETTING PROJECT UP GUIDE**
+###**1. SETTING UP PROJECT**
 - Clone project `git clone <link>`
-- Configure virtual environment (example for PyCharm is below)
+- Configure virtual environment (example for PyCharm IDE is below)
 - Install requirements `pip install -r requirements.txt`
+- Download trained models (from [Google Drive](https://drive.google.com/drive/folders/1aSTjtXbVzl8ns48yK4-uO8dzx4ggbZm2?usp=sharing))
+- Put models into `models` dir
 
+###**2. RUN APP**
+- open terminal inside `venv`
+- run start script:
+    ```bash
+    python app.py
+    ```
+
+###**3. ADDITIONAL**
 **Configure virtual environment (PyCharm)**
 - Open in project PyCharm
 - Open `Settings` (Ctrl + Alt + S)
