@@ -1,5 +1,6 @@
-# fire_segmentation
+# Fire Segmentation
 
+### **1. GENERAL INFO**
 <img src="pictures/main_updated.jpg" width="800"/>
 
 Neural networks course project. Website to segment fire from image 
@@ -16,7 +17,22 @@ file system and observe the result - message or mask
 
 <img src="pictures/website.jpg" width="800"/>
 
-### **1. SETTING UP PROJECT**
+### **2. DATASETS**
+**2.1 ResNet dataset** \
+That is a mix of three datasets:
+- [FIRE Dataset](https://www.kaggle.com/datasets/phylake1337/fire-dataset) - folders with fire images and non-fire images.
+- [Fire Detection Dataset](https://www.kaggle.com/datasets/atulyakumar98/test-dataset) - folders with fire images and non-fire images.
+- [BoWFire](https://www.kaggle.com/datasets/malligasenthil/bowfire) - folder with fire and non-fire images, and folder with fire masks for segmentation training. ResNet doesn't need any masks, so we don't use them for training. 
+
+Images from all these datasets are combined into two corresponding directories, which are later used for data preparation and model training. \
+Resulting dataset contains 984 fire images and 784 non-fire images.
+
+**2.2 UNet dataset**
+- [BoWFire](https://www.kaggle.com/datasets/malligasenthil/bowfire) - folder with fire and non-fire images, and folder with fire masks for segmentation training.
+
+UNet model uses both types of images from this dataset and segmentation masks for training. Dataset contains 119 fire images and 107 non-fire images. 
+
+### **3. SETTING UP PROJECT**
 - Clone project `git clone <link>`
 - Configure virtual environment (example for PyCharm IDE is below)
 - Install requirements `pip install -r requirements.txt`
@@ -24,14 +40,14 @@ file system and observe the result - message or mask
 - Put models into `models` dir
 - Create `image_edition` dir in root of the project
 
-### **2. RUN APP**
+### **4. RUN APP**
 - open terminal inside `venv`
 - run start script:
     ```bash
     python app.py
     ```
 
-### **3. ADDITIONAL**
+### **5. ADDITIONAL**
 **Configure virtual environment (PyCharm)**
 - Open in project PyCharm
 - Open `Settings` (Ctrl + Alt + S)
