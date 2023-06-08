@@ -44,3 +44,26 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #606060;
 }
+
+.results-body {
+  max-width: max-content;
+  margin: 0 auto;
+}
+
+.results-text {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.results-img {
+  margin: 0 5px;
+  width: 400px;
+}
+
+#red {
+  color: firebrick;
+}
+
+#green {
+  color: forestgreen;
+}
