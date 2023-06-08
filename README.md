@@ -1,6 +1,6 @@
 # fire_segmentation
 
-<img src="pictures/main.jpg" width="800"/>
+<img src="pictures/main_updated.jpg" width="800"/>
 
 neural networks course project. website to segment fire from image 
 in case it contains it. uses resnet for classification 
