@@ -15,7 +15,7 @@ class Segmentator:
 
         self.dir_path = project_folder_path
 
-        self.model = torch.load(f'{self.dir_path}\\segmentation\\unet_test_3_024',
+        self.model = torch.load(f'{self.dir_path}/models/unet_test_3_024',
                                 map_location=torch.device('cpu'))
 
     def segment(self, image):
