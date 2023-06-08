@@ -14,6 +14,7 @@ positive - get image with segment highlighted.
 - Install requirements `pip install -r requirements.txt`
 - Download trained models (from [Google Drive](https://drive.google.com/drive/folders/1aSTjtXbVzl8ns48yK4-uO8dzx4ggbZm2?usp=sharing))
 - Put models into `models` dir
+- Create `image_edition` dir in root of the project
 
 ### **2. RUN APP**
 - open terminal inside `venv`
