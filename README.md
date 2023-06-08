@@ -1,4 +1,6 @@
-# neural_networks_course_project
+# fire_segmentation
+
+<img src="pictures/main.jpg" width="600"/>
 
 **SETTING PROJECT UP GUIDE**
 - Clone project `git clone <link>`
