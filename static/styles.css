@@ -58,6 +58,7 @@ input[type="submit"]:hover {
 .results-img {
   margin: 0 5px;
   width: 400px;
+  border: 1px solid;
 }
 
 #red {
