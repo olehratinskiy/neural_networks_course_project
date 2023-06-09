@@ -1,5 +1,4 @@
 # Fire Segmentation
-[![website](https://img.shields.io/badge/whereisfire.pp.ua-website-green)](http://whereisfire.pp.ua)
 
 ### **1. GENERAL INFO**
 <img src="pictures/main_updated.jpg" width="800"/>
